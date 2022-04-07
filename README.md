@@ -10,3 +10,7 @@ Initially my idea was to summarize the full article and manually compare the sum
 But the model refuses the full article due to large size and even the model was pretrained on max_size_length of 512, 1024 only. So, using the full article would take a lot of time or be inaccurate. Hence I summarized on headline and compared it with the title in csv file.
 
 Due to time constraints I have only used the first 100 data from the csv file.
+
+The full implementation can be viewed and run using the notebook file in this repo.
+
+The dataset I have uploaded to my own google drive and used it on colab. So if it fails to run, you would have to download the dataset manually from the kaggle link.
